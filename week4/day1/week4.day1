@@ -1,0 +1,104 @@
+Saturday Agenda
+----------------
+9.10  to 10:15 -Alert
+10:15 to 10:45 -Classroom+Break
+10:45 to 11:45 -Frame
+11:45 to 12:15 -Classroom+Break
+12:15 to 01:00 -Collection-SET
+01:00 to 01:15 -Classroom+Break
+
+Target Locators
+=================
+1.Alert
+2.Frame
+3.WindowHnadling
+
+Alert
+==========
+pop-up
+
+modal alert:
+================
+1.simple alert- one action can be performed(ok)
+2.Confirm alert- two actions can be performed(ok/cancle or yes/no)
+3.Prompt alert -three actions -two button and one texbox
+
+
+Classroom:1
+
+promptalert
+https://www.leafground.com/alert.xhtml
+1.launch the browser and url
+2.click onthe show button
+3.transfer control to the alert
+4.pass the data
+5.click on 'ok' button
+6.print data 
+
+
+
+
+Frame
+=========
+
+photo frame
+
+real time -iframe
+iframe-inline frame
+
+method:
+=======
+right click -inspect -//iframe
+right click- frame source
+
+
+
+
+
+
+SET
+====
+-set will not allow duplicate
+1.hashset -random output
+eg 2,5,1,3,7,4,7
+
+output-1,7,4,3,2,5
+
+2.Tree set-ASCII order
+eg 6,3,2,7,1,4,9
+
+output :1,2,3,4,6,7,
+
+3.LinkedHashSet-FIFO
+
+eg 2,4,6,2,7,3
+
+output: 2,4,6,7,3
+
+
+lis[1,3,2,5,3,6,8,4,8,7]
+index[4]
+into convert set
+set[1,3,2,5,6,8,4,7]
+index[4]
+they will not use get
+
+
+
+
+
+
+
+
+https://buythevalue.in/
+https://www.leafground.com/alert.xhtml
+
+
+
+Classroom:2
+=========
+  Load the url(https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt)
+  1) handle the frame 
+  2)Click Try It button
+  3)Pass a text in the alert and get the Text  and accept the alert
+  4)Verify yor name is printed successfully
