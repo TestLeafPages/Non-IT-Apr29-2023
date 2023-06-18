@@ -1,0 +1,57 @@
+Sunday 
+Agenda for Today:
+=================
+   08:45 to 09:00->Recap
+   09:00 to 10:00->TestNG Attributes
+   10:00 to 10:25->Breakout(15 mins)+Break(10 mins)
+   10:25 to 11:15->Parameterization & Cross Browser 
+   11:15 to 11:45->Breakout(20 mins)+Break(10 mins)
+   11:45 to 12:30->Data provider
+   12:30 to 12:50->Breakout(20 mins)
+   12:50 to 01:10->Live Quiz
+
+
+   TestNG Attributes:
+
+Classroom 1:
+   CreateLead(invocationCount=2)
+   Deletelead(enabled=false)
+   EditLead(dependsOnMethods=CreateLead)
+   
+
+   Static Parameterization:
+   url
+   username
+   password
+   Browser
+
+
+Steps to implement Parameter:
+1)Identify the data that are need to be static in the xml (url,usernam,password)
+2)Add parameter tag for each one of these data in the xml file
+3)Map the parameters in the class using @Parameters
+    -Note: The name should exactly match the names in the xml
+4)Use that parameters inside the method using arguments
+    -Note: Sequence matters but  the name of the argument does not matter
+5)Finally replace arguments with hardcoded value
+Note: You should always run from the xml file when you use parameters
+
+
+
+
+
+Step:1  Create a normal method with return type of String[][]       
+ 
+Step:2  Declare and assign the value to the 2D Dimensional array
+
+Step:3  Add @DataProvider annotation on top of the method
+
+Step:4  Add dataProvider attribute the @Test Method
+
+Step:5  Add arguments to @test method to pass data from the DataProvider Method
+
+DataProvider
+Disadvantage:
+if have you more than 10 or 20 set data
+
+over come this we you excel .
